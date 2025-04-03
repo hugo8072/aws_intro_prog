@@ -6,7 +6,7 @@ dic_notes = {
    3:0.4,
 }
 while n<=3:
-   notas += float(input(f"introduza a nota do {n} teste ")*dic_notes[n])
+   notas += float(input(f"introduza a nota do {n} teste "))*dic_notes[n]
    n+=1
 
 
@@ -15,5 +15,5 @@ while n<=3:
 if notas>9.5:
    print("O aluno passou com uma média de :", notas)
 else:
-   print("O aluno reprovou")
+   print("O aluno reprovou com uma media de;", notas)
     
