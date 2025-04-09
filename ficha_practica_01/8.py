@@ -12,7 +12,7 @@ while n<=3:
 
 
 
-if notas>9.5:
+if notas>9.4:
    print("O aluno passou com uma média de :", notas)
 else:
    print("O aluno reprovou com uma media de;", notas)
