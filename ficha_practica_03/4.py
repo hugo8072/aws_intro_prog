@@ -1,6 +1,6 @@
 import math
 
-def eh_primo(n):
+def primo(n):
     if n <= 1:
         return False  
     if n == 2:
@@ -18,7 +18,7 @@ def eh_primo(n):
 
 
 numero = int(input("Digite um número: "))
-if eh_primo(numero):
+if primo(numero):
     print(f"{numero} é primo.")
 else:
     print(f"{numero} não é primo.")
