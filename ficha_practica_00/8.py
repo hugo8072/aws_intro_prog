@@ -4,7 +4,7 @@ total_segundos=0
 total_horas=0
 while n < 5:
     n += 1  # Incrementa n a cada iteração
-    total_minutos += int(input(f"Introduza os minutos da música {n}: "))  # Usando f-string para incluir o valor de n
+    total_minutos += int(input(f"Introduza os minutos da música {n}: ")) 
     total_segundos += int(input(f"Introduza os segundos da música {n}: "))
 
 if total_minutos>59:
